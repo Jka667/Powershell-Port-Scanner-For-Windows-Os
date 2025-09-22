@@ -1,0 +1,29 @@
+🔍 PowerShell Port Scanner
+
+Simple PowerShell script to check open/closed TCP ports.
+
+
+
+Features
+
+Interactive if no arguments given.
+
+Scan a custom range or use default common ports:
+21, 22, 25, 53, 80, 110, 143, 443, 445, 3389
+
+Shows results per port + summary at the end.
+
+
+
+Usage
+
+Interactive:
+
+.\scanner.ps1
+
+
+
+
+With parameters:
+
+.\scanner.ps1 -target 192.168.1.10 -startPort 1 -endPort 100
